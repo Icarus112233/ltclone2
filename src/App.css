@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin&display');
+
 .App {
   text-align: center;
 }
@@ -14,9 +16,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: -webkit-linear-gradient(#5386ec, rgb(232, 83, 255));
+  /* background-color: #5386ec; */
   min-height: 100vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -26,6 +29,145 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.header {
+  font-family:'Aladin';
+  color: -webkit-linear-gradient(#5386ec, purple);
+}
+
+.paragraph {
+  font-family:'Aladin';
+  text-align: center;
+}
+
+.salmanPicture {
+  animation: App-logo-spin infinite 20s linear;
+  width: 15vw;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 80px;
+}
+
+.instagramButton {
+  font-family:'Aladin';
+  background-color: rgb(187, 60, 255);
+  border-color: #5386ec;
+  color: rgb(255, 255, 255);
+  font-size: calc(10px + 2vmin);
+  padding: calc(1px + 1vmin);
+  transition-duration: .4s;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.instagramButton:hover {
+  background-color: rgb(255, 41, 41);
+  border-color: rgb(255, 41, 41);
+  cursor: pointer;
+}
+
+.soundcloudButton {
+  font-family:'Aladin';
+  background-color: rgb(187, 60, 255);
+  border-color: #5386ec;
+  color: rgb(255, 255, 255);
+  font-size: calc(10px + 2vmin);
+  padding: calc(1px + 1vmin);
+  transition-duration: .4s;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.soundcloudButton:hover {
+  background-color: rgb(255, 161, 20);
+  border-color: rgb(255, 161, 20);
+  cursor: pointer;
+}
+
+.spotifyButton {
+  font-family:'Aladin';
+  background-color: rgb(187, 60, 255);
+  border-color: #5386ec;
+  color: rgb(255, 255, 255);
+  font-size: calc(10px + 2vmin);
+  padding: calc(1px + 1vmin);
+  transition-duration: .4s;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.spotifyButton:hover {
+  background-color: rgb(27, 255, 84);
+  border-color: rgb(27, 255, 84);
+  cursor: pointer;
+}
+
+.bandcampButton {
+  font-family:'Aladin';
+  background-color: rgb(187, 60, 255);
+  border-color: #5386ec;
+  color: rgb(255, 255, 255);
+  font-size: calc(10px + 2vmin);
+  padding: calc(1px + 1vmin);
+  transition-duration: .4s;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.bandcampButton:hover {
+  background-color: rgb(90, 173, 217);
+  border-color: rgb(90, 173, 217);
+  cursor: pointer;
+}
+
+.contactButton {
+  font-family:'Aladin';
+  background-color: rgb(187, 60, 255);
+  border-color: #5386ec;
+  color: rgb(255, 255, 255);
+  font-size: calc(10px + 2vmin);
+  padding: calc(1px + 1vmin);
+  transition-duration: .4s;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.contactButton:hover {
+  background-color: rgb(93, 0, 119);
+  border-color: rgb(90, 173, 217);
+  cursor: pointer;
+}
+
+.gif1 {
+  float: right;
+  background: transparent;
+  width: 25vw;
+}
+
+.gif2 {
+  float: left;
+  background: transparent;
+  width: 25vw;
+}
+
+.gif3 {
+  background: transparent;
+  width: 20vw;
+}
+
+.gif4 {
+  position: absolute;
+  left: 50px;
+  background: transparent;
+  width: 15vw;
+}
+
+.gif5 {
+  position: absolute;
+  right: 50px;
+  background: transparent;
+  width: 20vw;
 }
 
 @keyframes App-logo-spin {
