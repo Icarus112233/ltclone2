@@ -5,6 +5,8 @@ import SoundcloudButton from './components/SoundcloudButton';
 import SpotifyButton from './components/SpotifyButton';
 import BandcampButton from './components/BandcampButton';
 import Contact from './components/Contact';
+import OnOurWay from './components/OnOurWay';
+import Whatever from './components/Whatever';
 import './App.css';
 import Penguin from './gifs/cute-penguin.gif';
 import Djcat from './gifs/dj-cat.gif';
@@ -31,6 +33,8 @@ function App() {
         <SpotifyButton />
         <BandcampButton />
         <Contact />
+        <OnOurWay />
+        <Whatever />
         <img src={Djemoji} className="gif3"/>
         <img src={Gjajadj} className="gif4"/>
         <img src={Turntable} className="gif5"/>
