@@ -7,6 +7,7 @@ import BandcampButton from './components/BandcampButton';
 import Contact from './components/Contact';
 import OnOurWay from './components/OnOurWay';
 import Whatever from './components/Whatever';
+import YTVinylMix from './components/YTVinylMix';
 import './App.css';
 import Penguin from './gifs/cute-penguin.gif';
 import Djcat from './gifs/dj-cat.gif';
@@ -26,10 +27,11 @@ function App() {
           SalmanF
         </h1>
         <p className="paragraph">
-          dtx, trance music, scorpion drive jacket
+          dtx, electronic dance music, scorpion drive jacket
         </p>
-        <InstagramButton />
+        <YTVinylMix />
         <SoundcloudButton />
+        <InstagramButton />
         <SpotifyButton />
         <BandcampButton />
         <Contact />
