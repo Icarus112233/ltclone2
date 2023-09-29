@@ -27,7 +27,7 @@ function App() {
           SalmanF
         </h1>
         <p className="paragraph">
-          dtx, electronic dance music, scorpion drive jacket
+          dtx, electronic dance music, scorpion drive jacket :)
         </p>
         <YTVinylMix />
         <SoundcloudButton />
