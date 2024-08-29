@@ -16,7 +16,8 @@
 }
 
 .App-header {
-  background: -webkit-linear-gradient(#5386ec, rgb(232, 83, 255));
+  /*background: -webkit-linear-gradient(#5386ec, rgb(232, 83, 255));*/
+  background: -webkit-linear-gradient(rgb(232, 83, 255),#5386ec);
   min-height: 100vh;
   display: block;
   flex-direction: column;
@@ -32,7 +33,7 @@
 
 .header {
   font-family:'Aladin', cursive;
-  font-weight: 300;
+  font-weight: 300px;
   color: -webkit-linear-gradient(#5386ec, purple);
   text-align: center;
 }
@@ -69,16 +70,42 @@
   cursor: pointer;
 }
 
+.youtubeButton {
+  font-family:'Aladin';
+  background-color: rgb(187, 60, 255);
+  border-color: #5386ec;
+  color: rgb(255, 255, 255);
+  font-size: calc(28px + 2vmin);
+  padding: calc(1px + 1vmin);
+  transition-duration: .4s;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  width: auto !important;
+  width: 320px;
+  height: auto !important;
+  height: 150px;
+}
+
+.youtubeButton:hover {
+  background-color: rgb(255, 41, 41);
+  border-color: rgb(255, 41, 41);
+  cursor: pointer;
+}
+
 .soundcloudButton {
   font-family:'Aladin';
   background-color: rgb(187, 60, 255);
   border-color: #5386ec;
   color: rgb(255, 255, 255);
-  font-size: calc(10px + 2vmin);
-  padding: calc(1px + 1vmin);
+  font-size: calc(28px + 2vmin);
+  padding: calc(10px + 1vmin);
   transition-duration: .4s;
   border-radius: 20px;
   margin-bottom: 15px;
+  width: auto !important;
+  width: 320px;
+  height: auto !important;
+  height: 150px;
 }
 
 .soundcloudButton:hover {
@@ -179,4 +206,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.font-face-gm {
+  font-family: "Zanzabar";
 }
