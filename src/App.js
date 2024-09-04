@@ -40,8 +40,7 @@ function App() {
         <BandcampButton />
         <Contact />
         {/* <OnOurWay />
-        <Whatever /> */}
-        {/*
+        <Whatever />
         <img src={Djemoji} className="gif3"/>
         <img src={Gjajadj} className="gif4"/>
         <img src={Turntable} className="gif5"/>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Aladin&display');
 
 .App {
+  background: -webkit-linear-gradient(rgb(232, 83, 255),#5386ec);
   text-align: center;
 }
 
@@ -16,8 +17,8 @@
 }
 
 .App-header {
-  /*background: -webkit-linear-gradient(#5386ec, rgb(232, 83, 255));*/
-  background: -webkit-linear-gradient(rgb(232, 83, 255),#5386ec);
+  background-image: url('./pictures/Background4.png');
+  background-size: cover;
   min-height: 100vh;
   display: block;
   flex-direction: column;
@@ -41,6 +42,7 @@
 .paragraph {
   font-family:'Aladin';
   text-align: center;
+  text-shadow: -1px -1px 2px black;
 }
 
 .salmanPicture {
@@ -210,4 +212,5 @@
 
 .font-face-gm {
   font-family: "Zanzabar";
+  text-shadow: -1px -1px 2px black;
 }
