@@ -4,7 +4,7 @@ import App from '../App.css'
 function SoundcloudButton() {
 	return (
 		<div>
-			<a href="https://soundcloud.com/salmanfuwu/salmanf-diaspora/">
+			<a href="https://on.soundcloud.com/zvNbg">
 				<button
 				class="soundcloudButton"
 				>
