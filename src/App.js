@@ -39,12 +39,6 @@ function App() {
         <SpotifyButton />
         <BandcampButton />
         <Contact />
-        {/* <OnOurWay />
-        <Whatever />
-        <img src={Djemoji} className="gif3"/>
-        <img src={Gjajadj} className="gif4"/>
-        <img src={Turntable} className="gif5"/>
-        */}
       </header>
     </div>
   );
